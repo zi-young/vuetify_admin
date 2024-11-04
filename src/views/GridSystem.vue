@@ -4,7 +4,7 @@
   >
     <v-card class="pa-3">
       <v-row>
-        <v-col>
+        <v-col cols="auto">
           <v-card class="pa-3" outlined>
             Col
           </v-card>

@@ -57,10 +57,12 @@ export default {
   name: 'App',
 
   data: () => ({
-    drawer: false,
+    dialog: false,
     items: [
       { title: 'Dashboard', icon: 'mdi-view-dashboard', to: '/'},
       { title: 'Grid System', icon: 'mdi-image', to: '/grid-system'},
+      { title: 'Grid List Page', icon: 'mdi-image', to: '/grid-list-page'},
+      { title: 'Break Points', icon: 'mdi-image', to: '/break-points'},
     ],
     right: null,
   }),
